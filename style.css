@@ -1,0 +1,190 @@
+/* * {
+    border: solid red;
+} */
+
+body {
+    margin: 0;
+    border: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-image: url(nav-bar-picture/beautiful-panorama-millaa-waterfall-australia-15175041.jpeg);
+    height: 150px;
+    margin: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px yellowgreen;
+}
+
+.page-title {
+    margin-bottom: 0;
+    border-bottom: 0;
+    margin-top: 15px; 
+}
+
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 50px;
+    border: 0;
+}
+
+.list-style {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0px;
+    height: 30px;
+    justify-content: space-around;
+    font-size: larger;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(178, 35, 200);
+    font-size: 40px ;
+    font-style: italic;
+    text-shadow: 2px 2px aqua;
+    height: 32px;
+
+}
+
+a:hover {
+    color: aqua;
+}
+
+h6 {
+    margin: 0;
+}
+
+.collage {
+    display: flex;
+    justify-content: center;  
+}
+
+.collage-positioning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 350px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.image-collage {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    justify-content: center;
+}
+
+.pic {
+    display: flex;
+    width: 175px;
+}
+
+.img1 {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+    height: 100%;
+}
+
+.img-sizing {
+    height: 200px;
+    width: 250px;
+    display: flex;
+}
+
+.small-font {
+    font-size: 14px;
+    margin: 0;
+    text-align: center ;
+}
+
+.info-pic {
+    display: flex;
+    color: white;    
+}
+
+.small-font {
+    text-align: center;
+}
+
+.image-collage1 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 350px;
+    left: 400px;
+}
+
+.image-collage2 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 500px;
+    left: 550px;
+}
+
+.image-collage3 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 350px;
+    left: 750px;
+}
+
+.image-collage4 {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 500px;
+    left: 950px;
+}
+
+.image-collage5 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 350px;
+    left: 1150px;
+} 
+
+
+.test {
+    height: 5000px;
+}
+
+.activities-banner {
+    color: white;
+}
